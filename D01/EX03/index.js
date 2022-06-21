@@ -3,7 +3,7 @@ function compareNumbers(compareNum, toNum) {
 
   if (compareNum < toNum) {
     comparisonResult = "less than";
-  } else if (num > toNum) {
+  } else if (compareNum > toNum) {
     comparisonResult = "bigger than";
   } else {
     comparisonResult = "equal to";
